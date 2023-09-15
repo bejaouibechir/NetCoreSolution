@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿//Version 15/09/2023 -11:35
+
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
