@@ -1,4 +1,6 @@
-﻿namespace WebRazorCF
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebRazorCF
 {
     public class User
     {

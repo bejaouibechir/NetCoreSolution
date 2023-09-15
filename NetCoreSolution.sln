@@ -21,19 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppCoreOld", "WebAppCore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppCoreTrace", "WebAppCoreTrace\WebAppCoreTrace.csproj", "{C892BBB4-CFFE-49A7-B26B-909E5175E948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreAngular", "WebCoreAngular\WebCoreAngular.csproj", "{82C6FE70-59EF-443D-96DF-94708C8473F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreAngular", "WebCoreAngular\WebCoreAngular.csproj", "{82C6FE70-59EF-443D-96DF-94708C8473F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebReact", "WebReact\WebReact.csproj", "{7C81038A-6CE8-4D71-B255-F2C31109CBE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebReact", "WebReact\WebReact.csproj", "{7C81038A-6CE8-4D71-B255-F2C31109CBE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRazor", "WebRazor\WebRazor.csproj", "{4BD6D373-A46E-4832-9681-847BA8E143C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRazor", "WebRazor\WebRazor.csproj", "{4BD6D373-A46E-4832-9681-847BA8E143C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestXunit", "WebTestXunit\WebTestXunit.csproj", "{38EA6AD6-C878-4E2A-9742-70CE45FF708A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTestXunit", "WebTestXunit\WebTestXunit.csproj", "{38EA6AD6-C878-4E2A-9742-70CE45FF708A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestNunit", "WebTestNunit\WebTestNunit.csproj", "{F793A293-A317-49D2-B3E1-D20B285A5366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTestNunit", "WebTestNunit\WebTestNunit.csproj", "{F793A293-A317-49D2-B3E1-D20B285A5366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDBF", "WebApiDBF\WebApiDBF.csproj", "{0EB19B89-F106-4EE2-8E29-8650DFE34C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDBF", "WebApiDBF\WebApiDBF.csproj", "{0EB19B89-F106-4EE2-8E29-8650DFE34C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRazorCF", "WebRazorCF\WebRazorCF.csproj", "{154B313E-52E1-46E2-8581-3F56A4C2D66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRazorCF", "WebRazorCF\WebRazorCF.csproj", "{154B313E-52E1-46E2-8581-3F56A4C2D66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCFramework", "WebMVCFramework\WebMVCFramework.csproj", "{E10D469B-B517-4BB1-9B2C-0C771800B11F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{154B313E-52E1-46E2-8581-3F56A4C2D66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154B313E-52E1-46E2-8581-3F56A4C2D66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154B313E-52E1-46E2-8581-3F56A4C2D66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10D469B-B517-4BB1-9B2C-0C771800B11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10D469B-B517-4BB1-9B2C-0C771800B11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10D469B-B517-4BB1-9B2C-0C771800B11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10D469B-B517-4BB1-9B2C-0C771800B11F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
