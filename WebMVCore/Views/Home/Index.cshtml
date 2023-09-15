@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<environment include="Development">
+    <div>Environment is Development</div>
+</environment>
+<environment exclude="Development">
+    <div>Environment is NOT Development</div>
+</environment>
+<environment include="Staging,Production">
+    <div>Environment is: Staging or Production</div>
+</environment>
+

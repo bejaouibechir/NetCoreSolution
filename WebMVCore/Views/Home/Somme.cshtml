@@ -1,0 +1,40 @@
+﻿
+@*<h1>@ViewBag.Title</h1>*@
+@*<h1>@TempData["title"]</h1>*@
+
+<h1>@Context.Session.GetString("title")</h1>
+
+@*<h1>Ce ci est la vue de formulaire</h1>
+<div>
+    <table style="width: 100px; border: 1px;">
+        @using (Html.BeginForm("Somme", "Home", FormMethod.Post))
+        {
+            <tr>
+                <td>Login</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBox("x")</td>
+                
+            </tr>
+            <tr>
+                <td>Password</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBox("y")</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Envoyer" /></td>
+            </tr>
+        }
+    </table>
+</div>*@
+
+
+<form action="Somme" method="post">
+    La valeur de x:<br />
+    <input type="text" id="x" name="x" />
+    La valeur de x:<br />
+    <input type="text" id="y" name="y" />
+    <br/>
+    <input type="submit" value="Submit"/>
+</form>

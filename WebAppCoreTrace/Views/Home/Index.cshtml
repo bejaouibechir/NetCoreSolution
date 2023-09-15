@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@{
+    List<Tuple<string, string, string>> data = new List<Tuple<string, string, string>>
+    {
+        new Tuple<string, string, string>("1","one","un"),
+        new Tuple<string, string, string>("2","two","deux"),
+        new Tuple<string, string, string>("3","three","trois")
+    };
+
+    }<table class="table">
+      <thead>
+        <tr>
+            <th scope="col">Premier</th>
+            <th scope="col">Deuxième</th>
+            <th scope="col">Trosième</th>
+        </tr>
+      </thead>
+    <tbody>
+    @{
+    foreach (var item in data)
+        {
+            <tr>
+                    <td>@item.Item1</td>
+                    <td>@item.Item2</td>
+                    <td>@item.Item3</td>
+            </tr>
+            
+        }
+    }
+    </tbody>
+    </table>
+}
+
